@@ -1,2 +1,2 @@
-# pl_legend
-Legend Theme für Ceres Template
+# newtemplate
+Gdesign Theme für Ceres Template
