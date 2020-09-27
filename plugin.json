@@ -1,0 +1,43 @@
+{
+<<<<<<< Updated upstream
+    "version"           :   "5.0.8",
+=======
+    "version"           :   "3.1.3",
+>>>>>>> Stashed changes
+    "license"           :   "AGPL-3.0",
+    "name"              :   "Legend",
+    "marketplaceName"   :   {"de":"Legend","en":"Legend"},
+    "pluginIcon"        :   "icon_plugin_xs.png",
+    "authorIcon"        :   "icon_author_xs.png",
+    "email"             :   "info@plentylions.de",
+    "description"       :   "A Legend theme for Ceres. Development started with 2.13.0 Ceres.",
+    "shortDescription"  :   { "de": "Ein Legend-Theme für Ceres.", "en": "A Legend theme for Ceres." },
+    "namespace"         :   "Legend",
+    "author"            :   "Plenty Lions GmbH",
+    "keywords"          :   ["plentymarkets", "plugins", "layout", "theme", "ceres"],
+    "price"             :   0,
+    "categories"        :   [3518],
+    "type"              :   "theme",
+    "require"           :   ["Ceres"],
+    "serviceProvider"   :   "Legend\\Providers\\LegendServiceProvider",
+    "containers"        :
+    [
+        {
+<<<<<<< Updated upstream
+            "key"           :"Dekoundgarten\\Containers\\CheckoutBeforeShippingProfileListContainer",
+            "name"          :"Checkout BeforeShippingProfileList",
+            "description"   :"Text before shipping select"
+        },
+        {
+            "key": "Dekoundgarten\\Containers\\PromoContainer",
+            "name": "Promo container",
+            "description": "Promo container",
+            "defaultLayoutContainer": "Ceres::BasketPreview.AfterBasketTotals"
+=======
+            "key"           : "BasketPreview.AfterCheckoutButtons",
+            "name"          : "Shopping cart preview: After checkout buttons",
+            "description"   : "Add content after the checkout buttons in the shopping cart preview."
+>>>>>>> Stashed changes
+        }
+    ]
+}

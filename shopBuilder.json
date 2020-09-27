@@ -1,0 +1,22 @@
+{
+    "presets": {
+        "header": [
+            {
+                "label": "Widget.presetHeaderDefault",
+                "presetClass": "Legend\\Widgets\\Presets\\DefaultHeaderPreset"
+            }
+        ],
+        "footer": [
+            {
+                "label": "Widget.presetFooterDefault",
+                "presetClass": "Legend\\Widgets\\Presets\\DefaultFooterPreset"
+            }
+        ],
+        "content": [
+            {
+                "label": "Widget.presetHomepageDefault",
+                "presetClass": "Legend\\Widgets\\Presets\\DefaultHomepagePreset"
+            }
+        ]
+    }
+}

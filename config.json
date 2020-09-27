@@ -1,0 +1,408 @@
+{
+    "formatVersion": 1,
+    "menu": {
+<<<<<<< Updated upstream
+        "Config.HeaderTab": {
+            "label": "Config.HeaderTab",
+            "formFields": {
+                "header.slogan": {
+                    "type": "inputText",
+=======
+        "Config.GlobalTab": {
+            "label": "Config.globalTab",
+            "formFields": {
+                "header.custom_css": {
+                    "type": "inputTextArea",
+                    "required": false,
+                    "label": "Config.headerCustomCssLabel",
+                    "options": {
+                        "defaultValue": ""
+                    }
+                }
+            }
+        },
+        "Config.CategoryTab": {
+            "label": "Config.categoryTab",
+            "formFields": {
+                "categoryImage.size": {
+                    "type": "selectBox",
+                    "required": false,
+                    "label": "Config.categoryImageSizeLabel",
+                    "options": {
+                        "defaultValue": "cover",
+                        "selectBoxValues": [
+                            {
+                                "value": "cover",
+                                "caption": "Config.categoryImageSizeCover"
+                            },
+                            {
+                                "value": "contain",
+                                "caption": "Config.categoryImageSizeContain"
+                            }
+                        ]
+                    }
+                },
+                "categoryImage.hide_on_mobile": {
+                    "type": "checkBox",
+                    "required": false,
+                    "label": "Config.categoryImageHideOnMobileLabel",
+                    "options": {
+                        "defaultValue": "false"
+                    }
+                },
+                "category.collapse_filters": {
+                    "type": "checkBox",
+                    "required": false,
+                    "label": "Config.categoryCollapseFiltersLabel",
+                    "options": {
+                        "defaultValue": "false"
+                    }
+                }
+            }
+        },
+        "Config.ItemListsTab": {
+            "label": "Config.itemListsTab",
+            "formFields": {
+                "item.lists.hideAddToBasket": {
+                    "type": "checkBox",
+                    "required": false,
+                    "label": "Config.itemListsHideAddToBasketLabel",
+                    "options": {
+                        "defaultValue": "false"
+                    }
+                }
+            }
+        },
+        "Config.ItemViewTab": {
+            "label": "Config.itemViewTab",
+            "formFields": {
+                "singleItemIconsWithText.hide": {
+                    "type": "checkBox",
+                    "required": false,
+                    "label": "Config.singleItemIconsWithTextHideLabel",
+                    "options": {
+                        "defaultValue": "false"
+                    }
+                },
+                "singleItemParallax.hide": {
+                    "type": "checkBox",
+                    "required": false,
+                    "label": "Config.singleItemParallaxHideLabel",
+                    "options": {
+                        "defaultValue": "false"
+                    }
+                },
+                "singleItemParallax.html_en": {
+                    "type": "inputTextArea",
+                    "required": false,
+                    "label": "Config.singleItemHtmlEnLabel",
+                    "options": {
+                        "defaultValue": "<h3 class='m-y-0'>Sehen Sie sich unsere neu eingetroffenen Highlights an</h3><h1 class='my-3'>Top Preise</h1><span>Es gibt viele M&ouml;glichkeiten dieses Template zu individualisieren.</span>"
+                    }
+                },
+                "singleItemParallax.html_de": {
+                    "type": "inputTextArea",
+                    "required": false,
+                    "label": "Config.singleItemHtmlDeLabel",
+                    "options": {
+                        "defaultValue": "<h3 class='m-y-0'>Sehen Sie sich unsere neu eingetroffenen Highlights an</h3><h1 class='my-3'>Top Preise</h1><span>Es gibt viele M&ouml;glichkeiten dieses Template zu individualisieren.</span>"
+                    }
+                }
+            }
+        },
+        "Config.FooterTab": {
+            "label": "Config.footerTab",
+            "formFields": {
+                "footer.hide_plentylions_link": {
+                    "type": "checkBox",
+                    "required": false,
+                    "label": "Config.footerHidePlentyLinkLabel",
+                    "options": {
+                        "defaultValue": "false"
+                    }
+                }
+            }
+        },
+        "Config.DesignTab": {
+            "label": "Config.designTab",
+            "formFields": {
+                "legend-hide-bundle-badge": {
+                    "type": "selectBox",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.hideBundleBageLabel",
+                    "options": {
+                        "defaultValue": "block",
+                        "selectBoxValues": [
+                            {
+                                "value": "block",
+                                "caption": "Config.hideBundleBageLabelBlock"
+                            },
+                            {
+                                "value": "none",
+                                "caption": "Config.hideBundleBageLabelNone"
+                            }
+                        ]
+                    }
+                },
+                "legend-font-family-primary": {
+                    "type": "inputText",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.fontFamilyPrimaryLabel",
+                    "options": {
+                        "defaultValue": "Custom-Font, 'Open Sans', sans-serif"
+                    }
+                },
+                "legend-font-family-secondary": {
+                    "type": "inputText",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.fontFamilySecondaryLabel",
+                    "options": {
+                        "defaultValue": "Custom-Font, 'Roboto Slab', serif"
+                    }
+                },
+                "legend-color-primary": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.brandPrimaryLabel",
+                    "options": {
+                        "defaultValue": "#000"
+                    }
+                },
+                "legend-color-secondary": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.brandSecondaryLabel",
+                    "options": {
+                        "defaultValue": "#ed1c2e"
+                    }
+                },
+                "legend-border-color": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.borderColorLabel",
+                    "options": {
+                        "defaultValue": "#e9e9e9"
+                    }
+                },
+                "legend-mobile-sidemenu-background": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.mobileSidemenuBackgroundLabel",
+                    "options": {
+                        "defaultValue": "#141414"
+                    }
+                },
+                "legend-mobile-sidemenu-color1": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.mobileSidemenuColor1Label",
+                    "options": {
+                        "defaultValue": "#fff"
+                    }
+                },
+                "legend-footer-background": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.footerBackgroundLabel",
+                    "options": {
+                        "defaultValue": "#141414"
+                    }
+                },
+                "legend-footer-color1": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.footerColor1Label",
+                    "options": {
+                        "defaultValue": "#fff"
+                    }
+                },
+                "legend-footer-color2": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.footerColor2Label",
+                    "options": {
+                        "defaultValue": "#959595"
+                    }
+                },
+                "legend-footer-hover-color": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.footerHoverColorLabel",
+                    "options": {
+                        "defaultValue": "#ed1c2e"
+                    }
+                },
+                "checkout-submit-button-color": {
+                    "type": "colorPicker",
+>>>>>>> Stashed changes
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.checkoutSubmitColorLabel",
+                    "options": {
+                        "defaultValue": "#7ed321"
+                    }
+<<<<<<< Updated upstream
+                }
+            }
+        },
+        "Config.PromoTab": {
+            "label": "Config.PromoTab",
+            "formFields": {
+                "promo.image": {
+                    "type": "inputFile",
+                    "required": false,
+                    "label": "Config.PromoImageLabel",
+                    "options": {
+                        "defaultValue": ""
+                    }
+                },
+                "promo.content": {
+                    "type": "inputTextArea",
+                    "required": false,
+                    "label": "Config.promoContentLabel",
+                    "options": {
+                        "defaultValue": ""
+                    }
+                },
+                "promo.variationId": {
+                    "type": "inputText",
+                    "required": false,
+                    "label": "Config.promoVariationIdLabel",
+                    "options": {
+                        "defaultValue": "20649"
+=======
+                },
+                "tag_danger": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.tagDangerLabel",
+                    "options": {
+                        "defaultValue": "#ed1c2e"
+                    }
+                },
+                "tag_primary": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.tagPrimaryLabel",
+                    "options": {
+                        "defaultValue": "#323232"
+                    }
+                },
+                "tag_success": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.tagSuccessLabel",
+                    "options": {
+                        "defaultValue": "#7ed321"
+                    }
+                },
+                "availability_1": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.availability1Label",
+                    "options": {
+                        "defaultValue": "#7ed321"
+                    }
+                },
+                "availability_2": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.availability2Label",
+                    "options": {
+                        "defaultValue": "#7ed321"
+                    }
+                },
+                "availability_3": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.availability3Label",
+                    "options": {
+                        "defaultValue": "#ed1c2e"
+                    }
+                },
+                "availability_4": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.availability4Label",
+                    "options": {
+                        "defaultValue": "#ed1c2e"
+                    }
+                },
+                "availability_5": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.availability5Label",
+                    "options": {
+                        "defaultValue": "#323232"
+                    }
+                },
+                "availability_6": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.availability6Label",
+                    "options": {
+                        "defaultValue": "#323232"
+                    }
+                },
+                "availability_7": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.availability7Label",
+                    "options": {
+                        "defaultValue": "#323232"
+                    }
+                },
+                "availability_8": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.availability8Label",
+                    "options": {
+                        "defaultValue": "#323232"
+                    }
+                },
+                "availability_9": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.availability9Label",
+                    "options": {
+                        "defaultValue": "#4d4f4d"
+                    }
+                },
+                "availability_10": {
+                    "type": "colorPicker",
+                    "required": false,
+                    "scss": true,
+                    "label": "Config.availability10Label",
+                    "options": {
+                        "defaultValue": "#4d4f4d"
+>>>>>>> Stashed changes
+                    }
+                }
+            }
+        }
+    }
+}
